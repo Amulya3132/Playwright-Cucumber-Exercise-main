@@ -1,12 +1,10 @@
 # Node
-node_modules/
 *.log
 npm-debug.log*
 
 # Reports and screenshots
 report.json
 report-html/
-cucumber_report/
 report.html
 screenshots/
 report-json/
