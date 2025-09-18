@@ -1,0 +1,23 @@
+{
+  "name": "playwright-cucumber-exercise-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js --format json:report-json/report.json --exit",
+  "report": "node generate-report.js"
+  },
+  "author": "Amulya",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/html-formatter": "^21.15.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.3",
+    "cucumber-html-reporter": "^7.1.1",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}

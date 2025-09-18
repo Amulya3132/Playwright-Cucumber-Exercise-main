@@ -1,0 +1,28 @@
+# Node
+node_modules/
+*.log
+npm-debug.log*
+
+# Reports and screenshots
+report.json
+report-html/
+cucumber_report/
+report.html
+screenshots/
+report-json/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+
+# Playwright
+playwright-report/
+
+# Artifacts
+*.tgz
